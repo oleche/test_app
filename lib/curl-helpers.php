@@ -2,20 +2,20 @@
 	class CurlHelpers{
 		private $key;
 		private $secret;
-		
+
 		public function __construct($_key, $_secret){
 			$this->key = $_key;
 			$this->secret = $_secret;
 		}
-		
+
 		public function doCurlAuth($url, $params = array()){
 			//url-ify the data for the POST
 			$fields_string = "";
 			foreach($params as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
 			rtrim($fields_string, '&');
-			
+
 			$ch = curl_init();
-			
+
 			curl_setopt($ch, CURLOPT_URL, $url);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
@@ -31,17 +31,17 @@
 			{
 		    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
 			}
-			
+
 			$output = curl_exec($ch);
 			if(curl_errno($ch)){
 			    echo 'Curl error: ' . curl_error($ch);
 			}
-			print_r($output);
+
 			curl_close($ch);
-		
+
 			return json_decode($output);
 		}
-		
+
 		public function doGetCurlBearerAuth($url, $access_token){
 			$ch = curl_init();
 			$headers = array('Authorization: Bearer ' . $access_token);
@@ -57,17 +57,19 @@
 			{
 		    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
 			}
-		
+
 			$output = curl_exec($ch);
+
+			print_r($output);
 			curl_close($ch);
-		
+
 			return json_decode($output);
 		}
-		
+
 		public function setKey($_key){
 			$this->key = $_key;
 		}
-		
+
 		public function setSecret($_secret){
 			$this->secret = $_secret;
 		}
