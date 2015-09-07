@@ -60,6 +60,7 @@
 
 			$output = curl_exec($ch);
 
+			print_r($url);
 			print_r($output);
 			curl_close($ch);
 
