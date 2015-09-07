@@ -1,0 +1,1 @@
+appInfo.name = "Quejamatic Dashboard"

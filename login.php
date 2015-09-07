@@ -15,11 +15,10 @@
     <script src="js/todo.js"></script>
   </head>
   <body>
+		<legend><img src="img/logo-sm.png" width="150px"/> Dashboard</legend>
 		<div class="col-sm-8 col-sm-push-4">
 		    <h2>{{ appInfo.name }}</h2>
-		    <p>Copyright &copy; {{ appInfo.copyrightYears }} {{ appInfo.copyrightHolder }}</p>
-		    <p>Version {{ appInfo.version }}</p>
-		    <p class="text-danger">Unauthorized access to this system is prohibited.</p>
+		    <p class="text-danger">Acceso no autorizado a esta aplicación es penada y prohibida.</p>
 		</div>
 		<div class="col-sm-4 col-sm-pull-8">
 		    <form name="loginForm" novalidate>
