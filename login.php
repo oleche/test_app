@@ -17,7 +17,7 @@
 		<script src="js/consular.js"></script>
     <script src="js/login.js"></script>
   </head>
-  <body>
+  <body onload="startTime()">
 		<div class="container">
 			<div class="row login_box">
 			    <div class="col-md-12 col-xs-12" align="center">
