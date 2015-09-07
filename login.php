@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="row login_box">
 			    <div class="col-md-12 col-xs-12" align="center">
-		            <div class="line"><h3>12 : 30 AM</h3></div>
+		            <div class="line"><h3 id="clock">12 : 30 AM</h3></div>
 		            <div class="outter"><img src="img/logo-sm.png" class="img-responsive"/></div>
 		            <h1>Dashboard</h1>
 			    </div>
