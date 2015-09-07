@@ -21,25 +21,25 @@
 		<div class="container">
 			<div class="row login_box">
 			    <div class="col-md-12 col-xs-12" align="center">
-		            <div class="line"><h3 id="clock">12 : 30 AM</h3></div>
-		            <div class="outter"><img src="img/logo-sm.png" class="img-responsive"/></div>
-		            <h1>Dashboard</h1>
+	          <div class="line"><h3 id="clock">12 : 30 AM</h3></div>
+	          <div class="outter"><img src="img/logo-sm.png" class="img-responsive"/></div>
+	          <h1>Dashboard</h1>
 			    </div>
 
 		        <div class="col-md-12 col-xs-12 login_control">
 
-		                <div class="control">
-		                    <div class="label">Email Address</div>
-		                    <input type="text" class="form-control" value="admin@gmail.com"/>
-		                </div>
+	            <div class="control">
+	                <div class="label">Email Address</div>
+	                <input type="text" id="email" class="form-control" value=""/>
+	            </div>
 
-		                <div class="control">
-		                     <div class="label">Password</div>
-		                    <input type="password" class="form-control" value="123456"/>
-		                </div>
-		                <div align="center">
-		                     <button class="btn btn-orange">LOGIN</button>
-		                </div>
+	            <div class="control">
+	                 <div class="label">Password</div>
+	                <input type="password" id="password" class="form-control" value=""/>
+	            </div>
+	            <div align="center">
+	                 <button class="btn btn-orange">LOGIN</button>
+	            </div>
 
 		        </div>
 
