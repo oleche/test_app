@@ -21,10 +21,10 @@
 			<div class="row login_box">
 			    <div class="col-md-12 col-xs-12" align="center">
 		            <div class="line"><h3>12 : 30 AM</h3></div>
-		            <div class="outter"><img src="img/logo-sm.png" width="150px"/></div>
+		            <div class="outter"><img src="img/logo-sm.png" width="200px"/></div>
 		            <h1>Dashboard</h1>
 			    </div>
-		      
+
 		        <div class="col-md-12 col-xs-12 login_control">
 
 		                <div class="control">
