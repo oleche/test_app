@@ -7,13 +7,12 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	  <link rel="stylesheet" media="screen" href="css/login.css">
 	  <!-- Custom Fonts -->
-	  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	  <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 	  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
     <script src="js/todo.js"></script>
-    <link rel="stylesheet" href="todo.css">
   </head>
   <body>
 		<div class="col-sm-8 col-sm-push-4">
