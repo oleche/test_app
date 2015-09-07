@@ -12,6 +12,7 @@
 	  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="js/consular.js"></script>
     <script src="js/todo.js"></script>
   </head>
   <body>
